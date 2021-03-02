@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jot.com">
+
+
+	<test name="Jot.com form filling">
+	<parameter name = "fName" value="Peter"/> 
+	<parameter name = "lName" value="Worsham"/> 
+	<parameter name = "emailId" value="peter.worsham@gmail.com"/> 
+	<parameter name = "roomTypeEntry" value="Standard Room (1 to 2 People)"/> 
+	<parameter name = "NumberOfGuest" value="1"/> 
+	<parameter name = "ArrivalDate" value="04-12-2020"/> 
+	<parameter name = "departureMonth" value="May"/> 
+	<parameter name = "departureDay" value="10"/> 
+	<parameter name = "departureYear" value="2020"/>
+	<parameter name = "flight" value="12345"/> 
+	<parameter name = "specialRequest" value="Non smoker room"/> 
+	<parameter name = "image" value="image.jpg"/>
+  
+    
+
+System.getProperty("user.dir") +"/resources/Drivers/chromedriver	
+	
+	
+	
+		<classes>
+			<class name="com.JetForm.testcases.JotFormPageTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jot.com]">
+  <parameter name="lName" value="Worsham"/>
+  <parameter name="NumberOfGuest" value="1"/>
+  <parameter name="flight" value="12345"/>
+  <parameter name="image" value="image.jpg"/>
+  <parameter name="departureYear" value="2020"/>
+  <parameter name="fName" value="Peter"/>
+  <parameter name="ArrivalDate" value="04-12-2020"/>
+  <parameter name="roomTypeEntry" value="Standard Room (1 to 2 People)"/>
+  <parameter name="departureMonth" value="May"/>
+  <parameter name="specialRequest" value="Non smoker room"/>
+  <parameter name="emailId" value="peter.worsham@gmail.com"/>
+  <parameter name="departureDay" value="10"/>
+  <test name="Jot.com form filling(failed)">
+    <parameter name="lName" value="Worsham"/>
+    <parameter name="NumberOfGuest" value="1"/>
+    <parameter name="flight" value="12345"/>
+    <parameter name="image" value="image.jpg"/>
+    <parameter name="departureYear" value="2020"/>
+    <parameter name="fName" value="Peter"/>
+    <parameter name="ArrivalDate" value="04-12-2020"/>
+    <parameter name="roomTypeEntry" value="Standard Room (1 to 2 People)"/>
+    <parameter name="departureMonth" value="May"/>
+    <parameter name="specialRequest" value="Non smoker room"/>
+    <parameter name="emailId" value="peter.worsham@gmail.com"/>
+    <parameter name="departureDay" value="10"/>
+    <classes>
+      <class name="com.JetForm.testcases.JotFormPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyTitleTest"/>
+        </methods>
+      </class> <!-- com.JetForm.testcases.JotFormPageTest -->
+    </classes>
+  </test> <!-- Jot.com form filling(failed) -->
+</suite> <!-- Failed suite [Jot.com] -->
