@@ -12,7 +12,6 @@ public class MostNumberOfVovel {
 		String vovelWithMaxCount= maxVovel("aanbMkklaaiiiiiikkeeoousaduuuuuu");
 		System.out.println("Vovel with maximum count = "+vovelWithMaxCount);
 	}
-
 	public static String maxVovel(String s) {
 		String maxCountOfVovel = "";
 		if (s.equals("")) { // Check if String is empty
