@@ -15,7 +15,6 @@ import com.JotForm.util.TestUtil;
 import com.JotForm.util.WebEventListener;
 
 public class TestBase {
-	
 	public static WebDriver driver;
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
